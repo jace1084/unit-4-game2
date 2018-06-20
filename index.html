@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="text-center">Crystal Collector</h1>
+    <!-- <h2 class="text-center">Let's see if you can sync your mind with the spirits</h2> -->
+  </div>
+
+  <div class="container">
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Computer Pick</h3>
+        </div>
+        <div class="card-body text-center">
+          <p id="computer-pick">What will the spirits choose? Choose a Crystal and let's see!</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">You Pick</h3>
+        </div>
+        <div class="card-body text-center">
+          <button id="button-1" class="btn btn-choice" data-value="1"><img src="assets/images/blue-gem.jpg"></button>
+          <button id="button-2" class="btn btn-choice" data-value="2"><img src="assets/images/red-gem.png"></button>
+          <button id="button-3" class="btn btn-choice" data-value="3"><img src="assets/images/green-gem.png"></button>
+          <button id="button-4" class="btn btn-choice" data-value="4"><img src="assets/images/purple-gem.jpeg"></button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Wins</h3>
+        </div>
+        <div class="card-body text-center">
+          <p id="winsTally"></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Losses</h3>
+        </div>
+        <div class="card-body text-center">
+          <p id="lossesTally"></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Random Numer</h3>
+        </div>
+        <div class="card-body text-center">
+          <p id="randomNumer"></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">User Score</h3>
+        </div>
+        <div class="card-body text-center">
+          <p id="userScore"></p>
+        </div>
+      </div>
+ 
+  </div>
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="assets/javascript/game.js">
+
+    // Here we create the on click event that gets the user"s pick
+    // $(".btn-choice").on("click", function() {
+    //   var randomNum = Math.floor(Math.random()*4)+1;
+    //     randomNum;
+    // $("#computer-pick").text(randomNum);
+    //   var userInput = $(".btn-choice").data('value');
+    //     if (userInput == randomNum) {	
+    //       $("#result").text("you matched");
+    //     }else{
+    //       $("#result").text("pick again");
+    //   }
+    //     });
+
+      
+
+      // Add code to have the computer guess a random number between 1 and 4
+
+      //compare the random number to what the user pressed
+      //make it look like the video
+
+
+  
+
+  </script>
+
+</body>
+
+</html>
