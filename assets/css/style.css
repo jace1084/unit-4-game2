@@ -13,3 +13,13 @@ body {
 #randonNumber, #userScore{
     font-size: 50px;
 }
+img{
+    border: none;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+
+}
+button{
+    background: transparent;
+}
