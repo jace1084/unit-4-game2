@@ -73,7 +73,7 @@ $(document).ready(function() {
 
 	// listen for clicks on any of the gems by targeting the gem class
 	$(".gem").on("click", function() {
-		// each gem has a value attribute of gem1, gem2, gem3, or gem 4
+		// each gem has a value attribute of gem1, gem2, gem3, or gem4
 		// use this attribute to identify which gem the user actually clicked
 		var pressed = $(this).attr("value");
         console.log(pressed);
@@ -90,7 +90,7 @@ $(document).ready(function() {
         	console.log("error");
         }
         // then update the html for the user score
-        $("#userScor").html(userTallyScore);
+        $("#userScore").html(userTallyScore);
         consoleLogVariables();
         // call the function to see if user has won or lost
         hasUserWonOrLost();
