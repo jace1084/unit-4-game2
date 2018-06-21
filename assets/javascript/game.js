@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-	// =============================
 	// Set up global variables first
-	// =============================
 
 	// initialize global variables
 	var gemOneVal, gemTwoVal, gemThreeVal, gemFourVal;
@@ -13,10 +11,8 @@ $(document).ready(function() {
 	// userTallyScore is the ongoing sum of gem values user has picked
 	var userTallyScore;
 
-	// ================
 	// Set up functions
-	// ================
-
+	
 	// function that initializes the variables for each new round of the game
 	function initializeVariables() {
 		// have computer pick a number between 19-120
@@ -64,10 +60,7 @@ $(document).ready(function() {
 		console.log("----------------------------------");
 
 	}
-
-	// =====================================
-	// Now comes the main game functionality
-	// =====================================
+	// Now comes the main game functionalit
 
 	initializeVariables();
 
